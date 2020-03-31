@@ -3,14 +3,19 @@ from Adafruit_LCD1602 import Adafruit_CharLCD
 
 from time import sleep, strftime
 from datetime import datetime
- 
+from datetime import date
+
 def loop():
     mcp.output(3,1)     # turn on LCD backlight
     lcd.begin(16,2)     # set number of LCD lines and columns
     while(True):         
         #lcd.clear()
         lcd.setCursor(0,0)  # set cursor position
-        lcd.message( 'Self-Isolation' +'\nDay 20' )# display CPU temperature
+        lcd.message( 'Self-Isolation' +'\n' )# display CPU temperature
+        start = date(2020, 3, 13)
+        now = date.today()
+        days = (now - start).days + 1
+        lcd.message('Day ' + str(days))
         sleep(1)
         
 def destroy():
