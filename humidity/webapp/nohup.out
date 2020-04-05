@@ -67,3 +67,66 @@
   max_open_warning, RuntimeWarning)
 192.168.0.10 - - [05/Apr/2020 19:21:07] "GET / HTTP/1.1" 200 -
 192.168.0.10 - - [05/Apr/2020 19:21:07] "GET /static/graph.png HTTP/1.1" 200 -
+ * Detected change in '/home/pi/Development/raspberry-pi/humidity/webapp/Humidity.py', reloading
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+Running!
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 217-361-254
+192.168.0.10 - - [05/Apr/2020 19:31:11] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/Development/raspberry-pi/humidity/webapp/app.py", line 9, in index
+    import Humidity
+File "/home/pi/Development/raspberry-pi/humidity/webapp/Humidity.py", line 40
+    fig, ax = plt.subplots(1, figsize=(10,6))
+      ^
+SyntaxError: invalid syntax
+192.168.0.10 - - [05/Apr/2020 19:31:12] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:31:12] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:31:12] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:31:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:31:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:31:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:31:33] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:31:33] "GET /static/graph.png HTTP/1.1" 200 -

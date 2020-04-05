@@ -34,7 +34,8 @@ def generate_image():
   import numpy as np
   colors = np.where(df["humidity"] > 50, 'dodgerblue', 
          (np.where(df["humidity"] > 45, 'c',
-                   (np.where(df["humidity"] > 39, 'mediumseagreen', 'yellowgreen')))))
+                   (np.where(df["humidity"] > 39, 'mediumseagreen',
+                       (np.where(df['humidity'] > 35, 'yellowgreen', 'yellow')))))))
 
   fig, ax = plt.subplots(1, figsize=(10,6))
   #plt.switch_backend('Agg')
