@@ -60,10 +60,13 @@ def generate_image():
                 where=df['healthy_max'] >= df['healthy_min'],
                 facecolor='green', alpha=0.1)
 
-  ax.text(0.7, 0.34, 'Healthy humidity is 30-50%',
-        verticalalignment='bottom', horizontalalignment='right',
+  ax.text(0.01, 0.34, 'Healthy humidity is 30-50%',
+        verticalalignment='bottom', horizontalalignment='left',
         transform=ax.transAxes,
         color='green', fontsize=12, alpha=0.7)
+
+  ax.text(0.01, 0.12, 'Temperature', verticalalignment='bottom', horizontalalignment='left',
+          transform=ax.transAxes, color='goldenrod', fontsize=12, alpha=0.7)
 
   plt.savefig('static/graph.png')
 #plt.show()
