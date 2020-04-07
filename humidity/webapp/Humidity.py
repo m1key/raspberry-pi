@@ -38,8 +38,8 @@ def generate_image():
                        (np.where(df['humidity'] > 35, 'yellowgreen', 'yellow')))))))
 
   fig, ax = plt.subplots(1, figsize=(10,6))
-  #plt.switch_backend('Agg')
   ax.scatter(df['datetime'], df['humidity'], c=colors)
+  ax.plot(df['datetime'], df['temperature'], linestyle='dotted', color='goldenrod')
   ax.plot(df['datetime'], df['healthy_min'], linestyle='solid', color="y", linewidth=0.6, label="min healthy humidity", alpha=0.5)
   ax.plot(df['datetime'], df['healthy_max'], linestyle='solid', color="b", linewidth=0.6, label="max healthy humidity", alpha=0.5)
 
