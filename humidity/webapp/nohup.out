@@ -130,3 +130,209 @@ SyntaxError: invalid syntax
 192.168.0.10 - - [05/Apr/2020 19:31:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 192.168.0.10 - - [05/Apr/2020 19:31:33] "GET / HTTP/1.1" 200 -
 192.168.0.10 - - [05/Apr/2020 19:31:33] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:36:21] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:36:21] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:37:51] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:37:52] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:49:27] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:49:28] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:57:12] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 19:57:13] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:00:14] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:00:14] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:04:14] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:04:14] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:09:10] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:09:11] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:30:04] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.10 - - [05/Apr/2020 20:30:07] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:30:07] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:37:45] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:37:45] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:52:41] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 20:52:41] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 21:32:29] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 21:32:30] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:03:11] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:03:11] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:23:21] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:23:21] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:36:06] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:36:07] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:39:32] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:39:32] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:58:00] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 22:58:00] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 23:06:36] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.10 - - [05/Apr/2020 23:06:38] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [05/Apr/2020 23:06:40] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 07:48:19] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 07:48:20] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 07:52:30] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 07:52:30] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 08:00:12] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 08:00:12] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 08:47:36] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 08:47:36] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 09:50:46] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 09:50:48] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 09:50:48] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 10:29:42] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 10:29:44] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 10:29:44] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 12:23:42] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 12:23:44] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 12:23:44] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 12:46:08] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 12:46:10] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 12:46:10] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 13:18:26] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 13:18:28] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 13:18:28] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 14:21:04] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 14:21:06] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 14:21:07] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 14:54:16] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 14:54:16] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 15:05:39] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 15:05:39] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 15:13:25] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 15:13:25] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 15:19:46] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 15:19:47] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 15:36:46] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 15:36:46] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 16:07:36] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 16:07:36] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 16:24:45] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 16:24:45] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 17:13:38] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 17:13:38] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 17:46:32] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 17:46:37] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 17:46:37] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 17:47:28] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 17:47:28] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 17:58:59] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 17:58:59] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 18:01:49] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 18:01:49] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 18:33:39] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 18:33:39] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 19:14:14] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 19:14:14] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 19:58:44] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 19:58:47] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 19:58:47] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 20:11:13] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 20:11:13] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 20:38:48] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 20:38:48] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 20:48:13] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 20:48:13] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 20:54:34] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 20:54:37] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 20:54:37] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 20:56:48] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 20:56:49] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 21:04:45] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 21:04:45] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 21:21:32] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 21:21:37] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 21:21:37] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 21:36:40] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 21:36:40] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 22:03:10] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 22:03:10] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 22:09:13] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 22:09:13] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 22:39:03] "GET /favicon.ico HTTP/1.1" 404 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [06/Apr/2020 22:39:05] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [06/Apr/2020 22:39:05] "GET /static/graph.png HTTP/1.1" 200 -
+/usr/lib/python3/dist-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+192.168.0.10 - - [07/Apr/2020 07:50:35] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [07/Apr/2020 07:50:35] "GET /static/graph.png HTTP/1.1" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 217-361-254
+192.168.0.33 - - [07/Apr/2020 08:02:25] "GET / HTTP/1.1" 200 -
+192.168.0.33 - - [07/Apr/2020 08:02:25] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.33 - - [07/Apr/2020 08:06:34] "GET / HTTP/1.1" 200 -
+192.168.0.33 - - [07/Apr/2020 08:06:34] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.33 - - [07/Apr/2020 08:13:38] "GET / HTTP/1.1" 200 -
+192.168.0.33 - - [07/Apr/2020 08:13:38] "GET /static/graph.png HTTP/1.1" 200 -
