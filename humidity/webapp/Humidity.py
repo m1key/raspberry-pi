@@ -12,7 +12,7 @@ def generate_image():
 
   import pandas as pd
 
-  url = '../humidity.csv'
+  url = '/home/pi/Development/raspberry-pi/humidity/humidity.csv'
   df = pd.read_csv(url, sep=",", names=['datetime', 'humidity', 'temperature'])
   df = df[df.humidity < 100]
   df = df[df.humidity > 0]
@@ -68,6 +68,6 @@ def generate_image():
   ax.text(0.01, 0.12, 'Temperature', verticalalignment='bottom', horizontalalignment='left',
           transform=ax.transAxes, color='goldenrod', fontsize=12, alpha=0.7)
 
-  plt.savefig('static/graph.png')
+  plt.savefig('/home/pi/Development/raspberry-pi/humidity/webapp/static/graph.png')
 #plt.show()
 

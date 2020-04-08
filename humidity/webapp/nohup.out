@@ -336,3 +336,93 @@ SyntaxError: invalid syntax
 192.168.0.33 - - [07/Apr/2020 08:06:34] "GET /static/graph.png HTTP/1.1" 200 -
 192.168.0.33 - - [07/Apr/2020 08:13:38] "GET / HTTP/1.1" 200 -
 192.168.0.33 - - [07/Apr/2020 08:13:38] "GET /static/graph.png HTTP/1.1" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 217-361-254
+192.168.0.33 - - [08/Apr/2020 12:40:07] "GET / HTTP/1.1" 200 -
+192.168.0.33 - - [08/Apr/2020 12:40:07] "GET /graph.png HTTP/1.1" 404 -
+192.168.0.33 - - [08/Apr/2020 12:40:07] "GET /static/favicon.ico HTTP/1.1" 200 -
+192.168.0.33 - - [08/Apr/2020 12:42:12] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/Development/raspberry-pi/humidity/webapp/app.py", line 11, in index
+    return render_template('index.html')
+  File "/usr/lib/python3/dist-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/usr/lib/python3/dist-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/usr/lib/python3/dist-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/lib/python3/dist-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pi/Development/raspberry-pi/humidity/webapp/templates/index.html", line 6, in top-level template code
+    <img src="{{ url_for('/home/pi/Development/raspberry-pi/humidity/webapp/static', filename='graph.png') }}" />
+  File "/usr/lib/python3/dist-packages/flask/helpers.py", line 356, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2061, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/helpers.py", line 345, in url_for
+    force_external=external)
+  File "/usr/lib/python3/dist-packages/werkzeug/routing.py", line 1776, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home/pi/Development/raspberry-pi/humidity/webapp/static' with values ['filename']. Did you mean 'static' instead?
+192.168.0.33 - - [08/Apr/2020 12:42:12] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.0.33 - - [08/Apr/2020 12:42:12] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.0.33 - - [08/Apr/2020 12:42:12] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+192.168.0.33 - - [08/Apr/2020 12:42:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.0.33 - - [08/Apr/2020 12:42:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Running!
+Running!
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 217-361-254
+192.168.0.33 - - [08/Apr/2020 12:46:51] "GET / HTTP/1.1" 200 -
+192.168.0.33 - - [08/Apr/2020 12:46:51] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.33 - - [08/Apr/2020 12:46:51] "GET /static/favicon.ico HTTP/1.1" 200 -
+192.168.0.10 - - [08/Apr/2020 12:49:52] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [08/Apr/2020 12:49:52] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [08/Apr/2020 12:49:52] "GET /static/favicon.ico HTTP/1.1" 200 -
+192.168.0.10 - - [08/Apr/2020 12:58:29] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [08/Apr/2020 12:58:29] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [08/Apr/2020 12:58:29] "GET /static/favicon.ico HTTP/1.1" 200 -
+192.168.0.10 - - [08/Apr/2020 13:07:08] "GET / HTTP/1.1" 200 -
+192.168.0.10 - - [08/Apr/2020 13:07:08] "GET /static/graph.png HTTP/1.1" 200 -
+192.168.0.10 - - [08/Apr/2020 13:07:08] "GET /static/favicon.ico HTTP/1.1" 200 -
+                                                                                                                                                                                                                               
