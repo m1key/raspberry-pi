@@ -46,10 +46,11 @@ def generate_image():
   plt.title('Humidity over Time', fontsize=20)
   plt.xlabel('Time - every day is exactly the same when self-isolating', fontsize=12)
   plt.ylabel('Humidity %', fontsize=14)
-  plt.ylim(10, 70)
+  plt.ylim(10, 90)
   import datetime
-  plt.xlim(df['datetime'].min(), datetime.datetime.now())
-  ax.set_xlim(df['datetime'].min(), datetime.datetime.now())
+  from datetime import timedelta
+  plt.xlim(datetime.datetime.now() - timedelta(hours=24), datetime.datetime.now())
+  #ax.set_xlim(df['datetime'].min(), datetime.datetime.now())
   #fig.xlim(df['datetime'].min, datetime.datetime.now())
   ax.spines['right'].set_visible(False)
   ax.spines['top'].set_visible(False)
